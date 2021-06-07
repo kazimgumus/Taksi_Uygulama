@@ -69,11 +69,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="YeniMusteri.cs">
+    <Compile Include="YeniKayit.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="YeniMusteri.Designer.cs">
-      <DependentUpon>YeniMusteri.cs</DependentUpon>
+    <Compile Include="YeniKayit.Designer.cs">
+      <DependentUpon>YeniKayit.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -87,8 +87,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="YeniMusteri.resx">
-      <DependentUpon>YeniMusteri.cs</DependentUpon>
+    <EmbeddedResource Include="YeniKayit.resx">
+      <DependentUpon>YeniKayit.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
