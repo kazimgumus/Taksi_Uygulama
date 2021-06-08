@@ -37,6 +37,10 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -139,12 +143,53 @@
             this.button9.Text = "23 AD 984";
             this.button9.UseVisualStyleBackColor = false;
             // 
+            // button10
+            // 
+            this.button10.BackColor = System.Drawing.Color.YellowGreen;
+            this.button10.Location = new System.Drawing.Point(12, 19);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(33, 27);
+            this.button10.TabIndex = 9;
+            this.button10.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.Firebrick;
+            this.button11.Location = new System.Drawing.Point(199, 19);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(31, 28);
+            this.button11.TabIndex = 10;
+            this.button11.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.YellowGreen;
+            this.textBox1.Location = new System.Drawing.Point(50, 19);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(77, 22);
+            this.textBox1.TabIndex = 11;
+            this.textBox1.Text = "BOŞ ARAÇ";
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Firebrick;
+            this.textBox2.Font = new System.Drawing.Font("Segoe UI Semibold", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.textBox2.Location = new System.Drawing.Point(236, 18);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(85, 25);
+            this.textBox2.TabIndex = 12;
+            this.textBox2.Text = "DOLU ARAÇ";
+            // 
             // Araclar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(581, 395);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
@@ -158,6 +203,7 @@
             this.Text = "Araclar";
             this.Load += new System.EventHandler(this.Araclar_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -172,5 +218,9 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
