@@ -44,12 +44,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.button1 = new System.Windows.Forms.Button();
             this.Kayıt.SuspendLayout();
             this.SuspendLayout();
             // 
             // Kayıt
             // 
             this.Kayıt.BackColor = System.Drawing.Color.DarkOrange;
+            this.Kayıt.Controls.Add(this.button1);
             this.Kayıt.Controls.Add(this.dateTimePicker1);
             this.Kayıt.Controls.Add(this.label7);
             this.Kayıt.Controls.Add(this.KaydetBtn);
@@ -75,7 +77,7 @@
             // KaydetBtn
             // 
             this.KaydetBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KaydetBtn.Location = new System.Drawing.Point(143, 358);
+            this.KaydetBtn.Location = new System.Drawing.Point(145, 363);
             this.KaydetBtn.Name = "KaydetBtn";
             this.KaydetBtn.Size = new System.Drawing.Size(139, 37);
             this.KaydetBtn.TabIndex = 25;
@@ -210,6 +212,16 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(211, 25);
             this.dateTimePicker1.TabIndex = 28;
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(606, 363);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 37);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "Çıkış";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // SoforEkle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -242,5 +254,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Button button1;
     }
 }
