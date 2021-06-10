@@ -115,6 +115,7 @@
             this.Controls.Add(this.listView1);
             this.Name = "Soforler";
             this.Text = "Soforler";
+            this.Load += new System.EventHandler(this.Soforler_Load);
             this.ResumeLayout(false);
 
         }
