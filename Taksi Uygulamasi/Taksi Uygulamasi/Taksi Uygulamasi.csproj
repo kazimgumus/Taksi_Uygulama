@@ -67,6 +67,12 @@
     <Compile Include="Anasayfa.Designer.cs">
       <DependentUpon>Anasayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Araclar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Araclar.Designer.cs">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +87,12 @@
     <Compile Include="YeniKayit.Designer.cs">
       <DependentUpon>YeniKayit.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Araclar.resx">
+      <DependentUpon>Araclar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,5 +16,20 @@ namespace Taksi_Uygulamasi
         {
             InitializeComponent();
         }
+
+        private void Anasayfa_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

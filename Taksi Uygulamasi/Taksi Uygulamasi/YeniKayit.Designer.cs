@@ -1,16 +1,13 @@
 ﻿namespace Taksi_Uygulamasi
+
+
 {
     partial class YeniKayit
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
+
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,16 +17,15 @@
             base.Dispose(disposing);
         }
 
+    SqlConnection baglanti = ("Data Source=ASUS-ASUS?\\SQLEXPRESS");
+
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+
         private void InitializeComponent()
         {
             this.Kayıt = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.KaydetBtn = new System.Windows.Forms.Button();
             this.DtpKayit = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.MskTel = new System.Windows.Forms.MaskedTextBox();
@@ -47,7 +43,7 @@
             // 
             // Kayıt
             // 
-            this.Kayıt.Controls.Add(this.button1);
+            this.Kayıt.Controls.Add(this.KaydetBtn);
             this.Kayıt.Controls.Add(this.DtpKayit);
             this.Kayıt.Controls.Add(this.label6);
             this.Kayıt.Controls.Add(this.MskTel);
@@ -66,16 +62,17 @@
             this.Kayıt.TabIndex = 13;
             this.Kayıt.TabStop = false;
             this.Kayıt.Text = "Kayıt";
+            this.Kayıt.Enter += new System.EventHandler(this.Kayıt_Enter);
             // 
-            // button1
+            // KaydetBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(146, 319);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 37);
-            this.button1.TabIndex = 25;
-            this.button1.Text = "Kaydet";
-            this.button1.UseVisualStyleBackColor = true;
+            this.KaydetBtn.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.KaydetBtn.Location = new System.Drawing.Point(146, 319);
+            this.KaydetBtn.Name = "KaydetBtn";
+            this.KaydetBtn.Size = new System.Drawing.Size(139, 37);
+            this.KaydetBtn.TabIndex = 25;
+            this.KaydetBtn.Text = "Kaydet";
+            this.KaydetBtn.UseVisualStyleBackColor = true;
             // 
             // DtpKayit
             // 
@@ -206,7 +203,7 @@
         #endregion
 
         private System.Windows.Forms.GroupBox Kayıt;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button KaydetBtn;
         private System.Windows.Forms.DateTimePicker DtpKayit;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.MaskedTextBox MskTel;
