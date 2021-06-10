@@ -60,8 +60,26 @@ namespace Taksi_Uygulamasi
         {
 
         }
+        {
+        baglanti.Open();
+        SqlCommand komut = new SqlCommand("select from * MusteriEkle", baglanti);
+        SqlDataReader oku = komut.ExecuteReader();
 
-        private void Kayıt_Enter(object sender, EventArgs e)
+        while (oku.Read())
+        {
+            ListViewItem ekle = new ListViewItem();
+        ekle.Text = oku["Musteriid"].ToString();
+        ekle.SubItems.Add["Adi"].ToString();
+        ekle.SubItems.Add["Soyadi"].ToString();
+        ekle.SubItems.Add["Telefon"].ToString();
+        ekle.SubItems.Add["Mail"].ToString();
+        ekle.SubItems.Add["KullaniciAdi"].ToString();
+        ekle.SubItems.Add["kayit"].ToString();
+
+    }
+}
+
+private void Kayıt_Enter(object sender, EventArgs e)
         {
             baglanti.Open();
             SqlCommand komut = new SqlCommand("istert into MusteriEkle (Adi,Soyadı,KullaniciAdi,Mail,Telefon) values ('" + TxtAdi.Text",''" + TxtSoyadi.Text"','" + TxtKullaniciAdi.Text"','" + TxtMail.Text"')", baglanti);
