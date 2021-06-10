@@ -43,14 +43,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.Kayıt.SuspendLayout();
             this.SuspendLayout();
             // 
             // Kayıt
             // 
             this.Kayıt.BackColor = System.Drawing.Color.DarkOrange;
-            this.Kayıt.Controls.Add(this.textBox1);
+            this.Kayıt.Controls.Add(this.dateTimePicker1);
             this.Kayıt.Controls.Add(this.label7);
             this.Kayıt.Controls.Add(this.KaydetBtn);
             this.Kayıt.Controls.Add(this.DtpKayit);
@@ -202,13 +202,13 @@
             this.label7.TabIndex = 27;
             this.label7.Text = "Ehliyet Alım:";
             // 
-            // textBox1
+            // dateTimePicker1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.textBox1.Location = new System.Drawing.Point(132, 252);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(213, 22);
-            this.textBox1.TabIndex = 28;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(134, 249);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(211, 25);
+            this.dateTimePicker1.TabIndex = 28;
             // 
             // SoforEkle
             // 
@@ -241,6 +241,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
