@@ -46,6 +46,7 @@ namespace Taksi_Uygulamasi
             // 
             // Kayıt
             // 
+            this.Kayıt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.Kayıt.Controls.Add(this.button1);
             this.Kayıt.Controls.Add(this.KaydetBtn);
             this.Kayıt.Controls.Add(this.DtpKayit);
@@ -201,7 +202,7 @@ namespace Taksi_Uygulamasi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Yellow;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(700, 450);
             this.Controls.Add(this.Kayıt);
             this.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
