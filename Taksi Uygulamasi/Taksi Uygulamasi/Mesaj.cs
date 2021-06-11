@@ -16,5 +16,36 @@ namespace Taksi_Uygulamasi
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+        SqlConnection baglanti = ("Data Source=ASUS-ASUS?\\SQLEXPRESS");
+        private void verilergoster()
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("select from * Mesaj", baglanti);
+            SqlDataReader oku = komut.ExecuteReader();
+
+            while (oku.Read())
+            {
+                ListViewItem ekle = new ListViewItem();
+                ekle.Text = oku["mesajid"].ToString();
+                ekle.SubItems.Add["Adi"].ToString();
+                ekle.SubItems.Add["Soyadi"].ToString();
+                ekle.SubItems.Add["mesaj"].ToString();
+               
+
+            }
+        }
+
+        baglanti.Open();
+            SqlCommand komut = new SqlCommand(@"insert into MusteriEkle (Adi,Soyadı,KullaniciAdi,Mail,Telefon) values ('" + TxtAdi.Text",''" + TxtSoyadi.Text"','" + TxtKullaniciAdi.Text"','" + TxtMail.Text"')", baglanti);
     }
 }
