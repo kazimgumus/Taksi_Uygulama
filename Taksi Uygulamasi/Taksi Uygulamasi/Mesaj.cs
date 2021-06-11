@@ -46,6 +46,6 @@ namespace Taksi_Uygulamasi
         }
 
         baglanti.Open();
-            SqlCommand komut = new SqlCommand(@"insert into MusteriEkle (Adi,Soyadı,KullaniciAdi,Mail,Telefon) values ('" + TxtAdi.Text",''" + TxtSoyadi.Text"','" + TxtKullaniciAdi.Text"','" + TxtMail.Text"')", baglanti);
+            SqlCommand komut = new SqlCommand(@"insert into MusteriEkle (Adi,Soyadı,KullaniciAdi,Mail,Telefon) values ('" + TxtAdi.Text",''" + TxtSoyadi.Text"','" + mesajid.Text"')", baglanti);
     }
 }
