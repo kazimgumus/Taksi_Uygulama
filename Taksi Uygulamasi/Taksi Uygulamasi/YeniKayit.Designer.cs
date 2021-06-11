@@ -1,4 +1,6 @@
-﻿namespace Taksi_Uygulamasi
+﻿using System;
+
+namespace Taksi_Uygulamasi
 
 
 {
@@ -38,11 +40,13 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.Kayıt.SuspendLayout();
             this.SuspendLayout();
             // 
             // Kayıt
             // 
+            this.Kayıt.Controls.Add(this.button1);
             this.Kayıt.Controls.Add(this.KaydetBtn);
             this.Kayıt.Controls.Add(this.DtpKayit);
             this.Kayıt.Controls.Add(this.label6);
@@ -183,6 +187,16 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Adı:";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(511, 41);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 37);
+            this.button1.TabIndex = 26;
+            this.button1.Text = "Çıkış";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // YeniKayit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -198,6 +212,11 @@
             this.Kayıt.PerformLayout();
             this.ResumeLayout(false);
 
+        }
+
+        private void Kayıt_Enter(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
@@ -216,5 +235,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
     }
 }
