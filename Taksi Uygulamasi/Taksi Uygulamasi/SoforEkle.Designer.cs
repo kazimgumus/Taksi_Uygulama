@@ -29,6 +29,9 @@
         private void InitializeComponent()
         {
             this.Kayıt = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
             this.KaydetBtn = new System.Windows.Forms.Button();
             this.DtpKayit = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
@@ -42,15 +45,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.Kayıt.SuspendLayout();
             this.SuspendLayout();
             // 
             // Kayıt
             // 
             this.Kayıt.BackColor = System.Drawing.Color.DarkOrange;
+            this.Kayıt.Controls.Add(this.button2);
             this.Kayıt.Controls.Add(this.button1);
             this.Kayıt.Controls.Add(this.dateTimePicker1);
             this.Kayıt.Controls.Add(this.label7);
@@ -73,6 +75,34 @@
             this.Kayıt.TabIndex = 14;
             this.Kayıt.TabStop = false;
             this.Kayıt.Text = "Kayıt";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(606, 363);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 37);
+            this.button1.TabIndex = 29;
+            this.button1.Text = "Çıkış";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(134, 249);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(211, 25);
+            this.dateTimePicker1.TabIndex = 28;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(-1, 246);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(124, 28);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Ehliyet Alım:";
             // 
             // KaydetBtn
             // 
@@ -194,33 +224,14 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Adı:";
             // 
-            // label7
+            // button2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(-1, 246);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(124, 28);
-            this.label7.TabIndex = 27;
-            this.label7.Text = "Ehliyet Alım:";
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(134, 249);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(211, 25);
-            this.dateTimePicker1.TabIndex = 28;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(606, 363);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 37);
-            this.button1.TabIndex = 29;
-            this.button1.Text = "Çıkış";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button2.Location = new System.Drawing.Point(645, 36);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 121);
+            this.button2.TabIndex = 30;
+            this.button2.Text = "Fotoğraf";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // SoforEkle
             // 
@@ -255,5 +266,6 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
