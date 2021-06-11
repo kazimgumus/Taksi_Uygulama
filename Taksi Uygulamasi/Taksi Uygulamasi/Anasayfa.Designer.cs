@@ -34,6 +34,7 @@
             System.Windows.Forms.Button button4;
             System.Windows.Forms.Button button5;
             System.Windows.Forms.Button button6;
+            System.Windows.Forms.Button button8;
             this.button7 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             button2 = new System.Windows.Forms.Button();
@@ -41,6 +42,7 @@
             button4 = new System.Windows.Forms.Button();
             button5 = new System.Windows.Forms.Button();
             button6 = new System.Windows.Forms.Button();
+            button8 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -122,12 +124,24 @@
             this.button7.Text = "Çıkış";
             this.button7.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            button8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            button8.Location = new System.Drawing.Point(42, 338);
+            button8.Name = "button8";
+            button8.Size = new System.Drawing.Size(121, 81);
+            button8.TabIndex = 7;
+            button8.Text = "Hesap";
+            button8.UseVisualStyleBackColor = true;
+            // 
             // Anasayfa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(button6);
             this.Controls.Add(button5);
