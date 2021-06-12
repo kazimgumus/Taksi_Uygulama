@@ -107,9 +107,9 @@
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Arial Narrow", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(379, 432);
+            this.button1.Location = new System.Drawing.Point(379, 412);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(105, 24);
+            this.button1.Size = new System.Drawing.Size(105, 44);
             this.button1.TabIndex = 6;
             this.button1.Text = "Hakkımızda";
             this.button1.UseVisualStyleBackColor = false;
