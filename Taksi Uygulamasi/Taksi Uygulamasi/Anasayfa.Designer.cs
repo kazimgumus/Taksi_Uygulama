@@ -36,6 +36,7 @@
             System.Windows.Forms.Button button6;
             System.Windows.Forms.Button button8;
             System.Windows.Forms.Button button9;
+            System.Windows.Forms.Button button10;
             this.button7 = new System.Windows.Forms.Button();
             button1 = new System.Windows.Forms.Button();
             button2 = new System.Windows.Forms.Button();
@@ -45,6 +46,7 @@
             button6 = new System.Windows.Forms.Button();
             button8 = new System.Windows.Forms.Button();
             button9 = new System.Windows.Forms.Button();
+            button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -87,7 +89,7 @@
             // 
             button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             button4.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            button4.Location = new System.Drawing.Point(573, 220);
+            button4.Location = new System.Drawing.Point(573, 203);
             button4.Name = "button4";
             button4.Size = new System.Drawing.Size(121, 81);
             button4.TabIndex = 3;
@@ -98,7 +100,7 @@
             // 
             button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             button5.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            button5.Location = new System.Drawing.Point(317, 220);
+            button5.Location = new System.Drawing.Point(317, 203);
             button5.Name = "button5";
             button5.Size = new System.Drawing.Size(121, 81);
             button5.TabIndex = 4;
@@ -109,7 +111,7 @@
             // 
             button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             button6.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            button6.Location = new System.Drawing.Point(42, 220);
+            button6.Location = new System.Drawing.Point(42, 203);
             button6.Name = "button6";
             button6.Size = new System.Drawing.Size(121, 81);
             button6.TabIndex = 5;
@@ -121,7 +123,7 @@
             // 
             button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             button8.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            button8.Location = new System.Drawing.Point(42, 338);
+            button8.Location = new System.Drawing.Point(42, 329);
             button8.Name = "button8";
             button8.Size = new System.Drawing.Size(121, 81);
             button8.TabIndex = 7;
@@ -132,7 +134,7 @@
             // 
             button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             button9.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            button9.Location = new System.Drawing.Point(317, 338);
+            button9.Location = new System.Drawing.Point(317, 329);
             button9.Name = "button9";
             button9.Size = new System.Drawing.Size(121, 81);
             button9.TabIndex = 8;
@@ -142,12 +144,24 @@
             // button7
             // 
             this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Location = new System.Drawing.Point(593, 379);
+            this.button7.Location = new System.Drawing.Point(697, 407);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(101, 31);
             this.button7.TabIndex = 6;
             this.button7.Text = "Çıkış";
             this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            button10.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            button10.Location = new System.Drawing.Point(573, 329);
+            button10.Name = "button10";
+            button10.Size = new System.Drawing.Size(121, 81);
+            button10.TabIndex = 9;
+            button10.Text = "Adres";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Anasayfa
             // 
@@ -155,6 +169,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(button10);
             this.Controls.Add(button9);
             this.Controls.Add(button8);
             this.Controls.Add(this.button7);

@@ -36,5 +36,10 @@ namespace Taksi_Uygulamasi
         {
 
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
