@@ -81,6 +81,7 @@
             button3.TabIndex = 2;
             button3.Text = "Araçlar";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -116,16 +117,6 @@
             button6.UseVisualStyleBackColor = true;
             button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button7
-            // 
-            this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button7.Location = new System.Drawing.Point(593, 379);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(101, 31);
-            this.button7.TabIndex = 6;
-            this.button7.Text = "Çıkış";
-            this.button7.UseVisualStyleBackColor = true;
-            // 
             // button8
             // 
             button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
@@ -147,6 +138,16 @@
             button9.TabIndex = 8;
             button9.Text = "Bakiye";
             button9.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button7.Location = new System.Drawing.Point(593, 379);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(101, 31);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "Çıkış";
+            this.button7.UseVisualStyleBackColor = true;
             // 
             // Anasayfa
             // 
