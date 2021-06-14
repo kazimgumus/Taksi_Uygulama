@@ -42,6 +42,8 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -191,12 +193,31 @@
             this.button12.Text = "Çıkış";
             this.button12.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Segoe UI Semibold", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button13.Location = new System.Drawing.Point(50, 364);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(75, 30);
+            this.button13.TabIndex = 14;
+            this.button13.Text = "Ara";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(131, 371);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(133, 22);
+            this.textBox3.TabIndex = 15;
+            // 
             // Araclar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(581, 395);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -235,5 +256,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
