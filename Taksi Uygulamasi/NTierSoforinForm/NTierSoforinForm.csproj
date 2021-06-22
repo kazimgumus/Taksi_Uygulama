@@ -5,10 +5,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0F59D1BF-6558-4D0D-AFCA-5B83E872A558}</ProjectGuid>
+    <ProjectGuid>{E086C459-A3DC-4F8B-9097-8879B92C8D58}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NTierKayitinForm</RootNamespace>
-    <AssemblyName>NTierKayitinForm</AssemblyName>
+    <RootNamespace>NTierSoforinForm</RootNamespace>
+    <AssemblyName>NTierSoforinForm</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -64,9 +64,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -89,16 +86,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NTierKayit.BLL\NTierKayit.BLL.csproj">
-      <Project>{071a39dc-65a4-49dc-9d43-9690111e411d}</Project>
-      <Name>NTierKayit.BLL</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YeniKayit.DAL\YeniKayit.DAL.csproj">
-      <Project>{71168c68-5098-43dd-a589-9d4aca39ee7f}</Project>
-      <Name>YeniKayit.DAL</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
