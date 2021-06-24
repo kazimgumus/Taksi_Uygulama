@@ -8,7 +8,7 @@ namespace Arac.DAL.Migrations
 
 
 internal sealed class Configurations :
-    System.Data.Entity.Migrations.DbMigrationsConfiguration<NtierBakiye.DAL.Context.BakiyeContext>
+    System.Data.Entity.Migrations.DbMigrationsConfiguration<NtierArac.DAL.Context.AracContext>
 
 {
     public Configurations()
@@ -16,7 +16,5 @@ internal sealed class Configurations :
         AutomaticMigrationsEnabled = true;
     }
 
-    protected override void Seed(NtierBakiye.DAL.Context.BakiyeContext context)
+    protected override void Seed(NtierArac.DAL.Context.AracContext context)
 }
-
-
