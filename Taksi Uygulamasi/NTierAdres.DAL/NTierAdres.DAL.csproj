@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B2D7393-6A27-4FED-959E-6742974B0D21}</ProjectGuid>
+    <ProjectGuid>{ADE61996-4664-462A-87F7-791E65CCD73C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NTierArac.DAL</RootNamespace>
-    <AssemblyName>NTierArac.DAL</AssemblyName>
+    <RootNamespace>NTierAdres.DAL</RootNamespace>
+    <AssemblyName>NTierAdres.DAL</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -51,11 +51,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\AracContext.cs" />
+    <Compile Include="Context\AdresContext.cs" />
     <Compile Include="Context\DBContext.cs" />
-    <Compile Include="Context\Migrations\Configurations.cs" />
-    <Compile Include="Model\Entity\Arac.cs" />
-    <Compile Include="NtierArac\DAL.cs" />
+    <Compile Include="Model\Entity\Adres.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -5,11 +5,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4B2D7393-6A27-4FED-959E-6742974B0D21}</ProjectGuid>
+    <ProjectGuid>{F7B02C94-BE79-4FE3-B00E-33B9D4D22A57}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NTierArac.DAL</RootNamespace>
-    <AssemblyName>NTierArac.DAL</AssemblyName>
+    <RootNamespace>NTierAdres.BLL</RootNamespace>
+    <AssemblyName>NTierAdres.BLL</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -51,12 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Context\AracContext.cs" />
-    <Compile Include="Context\DBContext.cs" />
-    <Compile Include="Context\Migrations\Configurations.cs" />
-    <Compile Include="Model\Entity\Arac.cs" />
-    <Compile Include="NtierArac\DAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AdresService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NTierAdres.DAL\NTierAdres.DAL.csproj">
+      <Project>{ade61996-4664-462a-87f7-791e65ccd73c}</Project>
+      <Name>NTierAdres.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
